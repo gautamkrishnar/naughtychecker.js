@@ -1,0 +1,27 @@
+{
+  "name": "naughtychecker.js",
+  "version": "1.0.0",
+  "description": "NodeJS module to check naughty strings, which have a high probability of causing issues when used as user-input data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamkrishnar/naughtychecker.js.git"
+  },
+  "keywords": [
+    "naughty",
+    "string",
+    "input",
+    "validation",
+    "malicious",
+    "input"
+  ],
+  "author": "Gautam krishna R <r.gautamkrishna@gmail.com> (http://www.github.com/gautamkrishnar)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gautamkrishnar/naughtychecker.js/issues"
+  },
+  "homepage": "https://github.com/gautamkrishnar/naughtychecker.js#readme"
+}
