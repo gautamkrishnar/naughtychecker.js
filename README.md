@@ -15,7 +15,7 @@ Its required to prevent serious errors like "internal server error" for unexpect
 ```
 
 ### Usage
-Use offline database of naughty strings ([blns.json](blns.json)) to validate the input:
+Use offline database of naughty strings ([blns.json](blns.json)) to validate the input word:
 ```js
   var naughtychecker = require('naughtychecker');
   strvalidate = naughtychecker.strvalidate;
@@ -25,7 +25,7 @@ Use offline database of naughty strings ([blns.json](blns.json)) to validate the
   strvalidate(text); // Returns false
 ```
 
-Use online database of naughty strings from [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) to validate the input:
+Use online database of naughty strings from [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) to validate the input word:
 ```js
   var naughtychecker = require('naughtychecker');
   var strvalidateonline = naughtychecker.strvalidateonline;
@@ -42,7 +42,7 @@ This project is inspired from [Big List of Naughty Strings](https://github.com/m
 Feel free to Clone the project and submit your improvements via pull requests.
 
 #### Contributors
-* <your name here>
+* your name here
 
 #### Release History
 
