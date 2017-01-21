@@ -1,5 +1,5 @@
 {
-  "name": "naughtychecker.js",
+  "name": "naughtychecker",
   "version": "1.0.0",
   "description": "NodeJS module to check naughty strings, which have a high probability of causing issues when used as user-input data",
   "main": "index.js",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/gautamkrishnar/naughtychecker.js/issues"
   },
-  "homepage": "https://github.com/gautamkrishnar/naughtychecker.js#readme"
+  "homepage": "https://github.com/gautamkrishnar/naughtychecker.js#readme",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
 }
