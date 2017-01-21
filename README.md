@@ -1,4 +1,4 @@
-# naughtychecker.js
+# naughtychecker.js [![npm version](https://badge.fury.io/js/naughtychecker.svg)](https://badge.fury.io/js/naughtychecker)
 NodeJS module to check Naughty Strings. Naughty Strings is a set of strings which have a high probability of causing issues when used as user-input data.
 
 ### Why Test Naughty Strings?
@@ -47,3 +47,6 @@ Feel free to Clone the project and submit your improvements via pull requests.
 #### Release History
 
 * 1.0.0 Initial Release
+
+#### Liked it?
+Hope you liked this module, don't forget to give it a star :star:
