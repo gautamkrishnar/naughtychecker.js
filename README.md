@@ -48,5 +48,8 @@ Feel free to Clone the project and submit your improvements via pull requests.
 
 * 1.0.0 Initial Release
 
+#### Stats
+[![NPM](https://nodei.co/npm/naughtychecker.png?downloads=true&stars=true)](https://nodei.co/npm/naughtychecker/)
+
 #### Liked it?
 Hope you liked this module, don't forget to give it a star :star:
