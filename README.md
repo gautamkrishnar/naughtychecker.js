@@ -36,7 +36,7 @@ Use online database of naughty strings from [Big List of Naughty Strings](https:
 ```
 
 ### Inspiration
-This project is inspired from [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) and uses the naught strings list from that project.
+This project is inspired from [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) and uses the naughty strings list from that project.
 
 ### Contributing
 Feel free to Clone the project and submit your improvements via pull requests.
