@@ -40,6 +40,8 @@ This project is inspired from [Big List of Naughty Strings](https://github.com/m
 
 ### Contributing
 Feel free to Clone the project and submit your improvements via pull requests.
+#### ToDo
+- [ ] Make  strvalidateonline() more efficient by making request() to excecute only once.
 
 #### Contributors
 * your name here
@@ -47,6 +49,7 @@ Feel free to Clone the project and submit your improvements via pull requests.
 #### Release History
 
 * 1.0.0 Initial Release
+* 1.0.1 Made a little more efficient
 
 #### Stats
 [![NPM](https://nodei.co/npm/naughtychecker.png?downloads=true&stars=true)](https://nodei.co/npm/naughtychecker/)

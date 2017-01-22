@@ -1,7 +1,7 @@
+var fs = require("fs");
+var blns = JSON.parse(fs.readFileSync("blns.json"));
 module.exports = {
    strvalidate: function(input) {
-       var fs = require("fs");
-       var blns = JSON.parse(fs.readFileSync("blns.json"));
        if (blns.indexOf(input)>=0) {
            return true;
        }
