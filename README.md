@@ -28,7 +28,7 @@ Use an offline database of naughty strings ([blns.json](blns.json)) to validate 
   strvalidate(text); // Returns false
 ```
 
-Use an online database of naughty strings from [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) to validate the input word:
+Use an online database of naughty strings from [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) to validate the input word (Needs improvement, This maybe slow. **Use with caution**):
 ```js
   var naughtychecker = require('naughtychecker');
   var strvalidateonline = naughtychecker.strvalidateonline;
@@ -52,13 +52,14 @@ Feel free to Clone the project and submit your improvements via pull requests.
 
 
 #### Contributors
-* Rohit Jha
+* [Rohit Jha](https://github.com/rohitjha)
 
 
 #### Release History
 
 * 1.0.0 Initial Release
 * 1.0.1 Made a little more efficient
+* 1.0.2 Minor perfomance improvements
 
 #### Stats
 [![NPM](https://nodei.co/npm/naughtychecker.png?downloads=true&stars=true)](https://nodei.co/npm/naughtychecker/)
