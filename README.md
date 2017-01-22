@@ -2,7 +2,7 @@
 NodeJS module to check Naughty Strings. Naughty Strings is a set of strings which have a high probability of causing issues when used as user-input data.
 
 ### Why Test Naughty Strings?
-Even multi-billion dollar companies like are using automated tests to validate the input. You can't tweet a  zero-width space (U+200B) on Twitter:
+Even multi-billion dollar companies like Twitter are using automated tests to validate the input. You can't tweet a  zero-width space (U+200B) on Twitter:
 
 ![Example](http://i.imgur.com/HyDg2eV.gif)
 
