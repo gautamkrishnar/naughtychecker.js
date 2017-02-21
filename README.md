@@ -12,6 +12,12 @@ It's required to prevent serious errors like "Internal Server Error" for unexpec
 
 ### Installation
 
+Yarn:
+```shell
+  yarn add naughtychecker
+```
+
+npm:
 ```shell
   npm install naughtychecker --save
 ```
@@ -20,22 +26,32 @@ It's required to prevent serious errors like "Internal Server Error" for unexpec
 ### Usage
 Use an offline database of naughty strings ([blns.json](blns.json)) to validate the input word:
 ```js
-  var naughtychecker = require('naughtychecker');
-  strvalidate = naughtychecker.strvalidate;
-  var text = "NULL";
-  strvalidate(text); // Returns true because "NULL" is a naughty string
-  text = "Hai"
-  strvalidate(text); // Returns false
+import NaughtyChecker from 'naughtychecker'
+const nc = new NaughtyChecker()
+
+const fromLocal = async () => {
+  try {
+    const result = await nc.validate('naughty string', {useLocal: true})
+    // looks good
+  } catch (e) {
+    // found naughty string
+  }
+}
 ```
 
 Use an online database of naughty strings from [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) to validate the input word (Needs improvement, This maybe slow. **Use with caution**):
 ```js
-  var naughtychecker = require('naughtychecker');
-  var strvalidateonline = naughtychecker.strvalidateonline;
-  var text = "NIL";
-  strvalidateonline(text); // Returns true because "NIL" is a naughty string
-  text = "Hello"
-  strvalidateonline(text); // Returns false
+import NaughtyChecker from 'naughtychecker'
+const nc = new NaughtyChecker()
+
+const fromOnline = async () => {
+  try {
+    const result = await nc.validate('naughty string')
+    // looks good
+  } catch (e) {
+    // found naughty string
+  }
+}
 ```
 
 
