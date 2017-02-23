@@ -5,7 +5,6 @@ import c from '../src/constants'
 let nc = null
 
 describe('Naughty Checker', () => {
-
   beforeEach(() => {
     nc = new NaughtyChecker()
   })
@@ -41,5 +40,4 @@ describe('Naughty Checker', () => {
       expect(e.message).to.equal(c.ERROR.FOUND_NAUGHTY_STRING)
     }
   })
-
 })
