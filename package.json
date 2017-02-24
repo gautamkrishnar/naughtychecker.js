@@ -2,9 +2,11 @@
   "name": "naughtychecker",
   "version": "1.0.2",
   "description": "NodeJS module to check naughty strings, which have a high probability of causing issues when used as user-input data",
-  "main": "index.js",
+  "main": "./distribution/naughtychecker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp",
+    "build": "babel src --out-dir distribution",
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,30 @@
   },
   "homepage": "https://github.com/gautamkrishnar/naughtychecker.js#readme",
   "dependencies": {
-    "request": "^2.79.0"
+    "async-file": "^2.0.2",
+    "axios": "^0.15.3",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.22.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.0.1",
+    "gulp-standard": "^8.0.3",
+    "mocha": "^3.2.0",
+    "run-sequence": "^1.2.2",
+    "should": "^11.1.2",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
   }
 }
