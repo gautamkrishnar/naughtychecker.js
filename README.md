@@ -39,7 +39,7 @@ const fromLocal = async () => {
 }
 ```
 
-Use an online database of naughty strings from [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) to validate the input word (Needs improvement, This maybe slow. **Use with caution**):
+Use an online database of naughty strings from [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) to validate the input word:
 ```js
 import NaughtyChecker from 'naughtychecker'
 const nc = new NaughtyChecker()
@@ -63,9 +63,9 @@ This project is inspired from [Big List of Naughty Strings](https://github.com/m
 Feel free to Clone the project and submit your improvements via pull requests.
 
 
-#### ToDo
-- [ ] Make  strvalidateonline() more efficient by making request() to excecute only once.
-
+#### Maintainers
+* [Gautam krishna R](https://github.com/gautamkrishnar)
+* [Simon Li](https://github.com/siutsin)
 
 #### Contributors
 * [Rohit Jha](https://github.com/rohitjha)
@@ -76,6 +76,8 @@ Feel free to Clone the project and submit your improvements via pull requests.
 * 1.0.0 Initial Release
 * 1.0.1 Made a little more efficient
 * 1.0.2 Minor perfomance improvements
+* 2.0.0 Promisify NaughtyChecker
+
 
 #### Stats
 [![NPM](https://nodei.co/npm/naughtychecker.png?downloads=true&stars=true)](https://nodei.co/npm/naughtychecker/)
