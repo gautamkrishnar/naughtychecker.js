@@ -1,11 +1,19 @@
 language: node_js
 node_js:
-  - node
-  - lts/boron
+- node
+- lts/boron
 cache:
   yarn: true
   directories:
-    - node_modules
+  - node_modules
 notifications:
   email:
     on_success: never
+deploy:
+  provider: npm
+  email: r.gautamkrishna@gmail.com
+  api_key:
+    secure: JFaIVuJpKkgNeDuhJAfbwYntfuOnyMiQYhcOFc5TXGORiKwsTUl8G1Rx3eKltLuwPPTz6G4bIXsgGB0UgR4ImR2Yu15YKFsYMrECuP20AyDUncEzNdNIamo0VE9lBw9mEc8gnG94PU1XeMBZFakWt6nQlj9/2uasEop9hYckRkXoOMrlUboXNs7Ai6lD7NHLQ6D5y/EbdXPCU5ZPzxR4sT87dTQCqX5dxXxnqDsIEsRQtswtiDTwsEmQFBnvmCW5HcLh45YxCAEUDMbzJIHbsvCf1GdQuk5d7mkRQhJdCVaIHninVUImUBPXJ/iNoVissVgGteDBHa4CDXHYuwAEyizyYKsylyq9dIiHK8Xd+3LLR8pFghnuZ50/UI4kjGsAkTmCdF6wLwK/aaRhEukfDf7kdlUwmEh6ir0tnCCtAxwUQfYsxHYD2BCAAKRZSbHab3HyIBM/8Buz091YZcq35EXgFcsUGjgU4IBPyF/EXxIPojvZjPsiKxSZfXJ+fdzJQBHhmy5ymeER/N7jLrZQqJc2jg32pQoxvGi9pVEdTMRxTWe/EVnmhjAjeZMx4hoQhwz/jMIAN/s2rlNfX0tDC+LFg2ZK7+oXJ8Z8h7IdxvSxerSm6yrYA+NJCSxxGuGcDpoiiyiJOi4Yff1YMFrhnlLHQDyKdbq9aSuEWoN1Mq8=
+  on:
+    tags: true
+    repo: gautamkrishnar/naughtychecker.js
