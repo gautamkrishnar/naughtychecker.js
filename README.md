@@ -1,4 +1,10 @@
-# naughtychecker.js [![npm version](https://badge.fury.io/js/naughtychecker.svg)](https://badge.fury.io/js/naughtychecker)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+[![dependency](https://david-dm.org/gautamkrishnar/naughtychecker.js.svg)](https://david-dm.org/gautamkrishnar/naughtychecker.js.svg)
+[![devDependency Status](https://david-dm.org/gautamkrishnar/naughtychecker.js/dev-status.svg)](https://david-dm.org/gautamkrishnar/naughtychecker.js#info=devDependencies)
+[![Build Status](https://travis-ci.org/gautamkrishnar/naughtychecker.js?branch=master)](https://travis-ci.org/gautamkrishnar/naughtychecker.js)
+[![npm version](https://badge.fury.io/js/naughtychecker.svg)](https://badge.fury.io/js/naughtychecker)
+
+# naughtychecker.js
 A Node.js module to check for Naughty Strings - strings that have a high probability of causing issues when used as user-input data.
 
 
@@ -24,7 +30,7 @@ npm:
 
 
 ### Usage
-Use an offline database of naughty strings ([blns.json](blns.json)) to validate the input word:
+Use an offline database of naughty strings ([blns.json](src/vendor/blns.json)) to validate the input word:
 ```js
 import NaughtyChecker from 'naughtychecker'
 const nc = new NaughtyChecker()
@@ -75,7 +81,7 @@ Feel free to Clone the project and submit your improvements via pull requests.
 
 * 1.0.0 Initial Release
 * 1.0.1 Made a little more efficient
-* 1.0.2 Minor perfomance improvements
+* 1.0.2 Minor performance improvements
 * 2.0.0 Promisify NaughtyChecker
 
 
