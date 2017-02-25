@@ -83,6 +83,7 @@ Read the [CONTRIBUTING.md](CONTRIBUTING.md) to get started. Feel free to Clone t
 * 1.0.1 Made a little more efficient
 * 1.0.2 Minor performance improvements
 * 2.0.0 Promisify NaughtyChecker
+* 2.0.1 Fix crash
 
 
 #### Stats
