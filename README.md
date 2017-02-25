@@ -1,10 +1,11 @@
+# naughtychecker.js
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![dependency](https://david-dm.org/gautamkrishnar/naughtychecker.js.svg)](https://david-dm.org/gautamkrishnar/naughtychecker.js.svg)
 [![devDependency Status](https://david-dm.org/gautamkrishnar/naughtychecker.js/dev-status.svg)](https://david-dm.org/gautamkrishnar/naughtychecker.js#info=devDependencies)
 [![Build Status](https://travis-ci.org/gautamkrishnar/naughtychecker.js?branch=master)](https://travis-ci.org/gautamkrishnar/naughtychecker.js)
 [![npm version](https://badge.fury.io/js/naughtychecker.svg)](https://badge.fury.io/js/naughtychecker)
 
-# naughtychecker.js
 A Node.js module to check for Naughty Strings - strings that have a high probability of causing issues when used as user-input data.
 
 
@@ -66,8 +67,7 @@ This project is inspired from [Big List of Naughty Strings](https://github.com/m
 
 
 ### Contributing
-Feel free to Clone the project and submit your improvements via pull requests.
-
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) to get started. Feel free to Clone the project and submit your improvements via pull requests. Always submit pull requests to the [develop](https://github.com/gautamkrishnar/naughtychecker.js/tree/develop) branch.
 
 #### Maintainers
 * [Gautam krishna R](https://github.com/gautamkrishnar)
