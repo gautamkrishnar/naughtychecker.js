@@ -46,7 +46,7 @@
     "gulp-standard": "^8.0.3",
     "mocha": "^5.2.0",
     "run-sequence": "^2.2.1",
-    "should": "^11.1.2",
+    "should": "^13.2.3",
     "standard": "^8.6.0"
   },
   "standard": {
