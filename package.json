@@ -28,7 +28,7 @@
   "homepage": "https://github.com/gautamkrishnar/naughtychecker.js#readme",
   "dependencies": {
     "async-file": "^2.0.2",
-    "axios": "^0.15.3",
+    "axios": "^0.18.0",
     "babel-polyfill": "^6.23.0",
     "moment": "^2.17.1"
   },
